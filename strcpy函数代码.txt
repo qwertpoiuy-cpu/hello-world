@@ -5,5 +5,6 @@ char *StrCpy(char *src)
  char *p=malloc(len+1);
  while(*(p++)=*(src++));
  p(len)='\0';
+ p(len-1)='\0';
  return p;
 }
